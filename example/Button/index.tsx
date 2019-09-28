@@ -10,7 +10,7 @@ export default class ButtonScreen extends Component {
     return (
       <View style={styles.container}>
         <Card title="常规" style={{flexDirection: 'row'}}>
-          <Button size="lg">去结算</Button>
+          <Button size="lg" style={{width:}}>去结算</Button>
           <Button size="lg" disabled>
             去结算
           </Button>
