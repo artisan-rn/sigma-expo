@@ -4,20 +4,22 @@ import {View, StyleSheet} from 'react-native';
 
 import {Button} from '@sigma/rn';
 import Card from '../Card';
+import {getRpx} from '@sigma/rn-util/lib/Device';
 
 export default class ButtonScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Card title="常规" style={{flexDirection: 'row'}}>
-          <Button size="lg" style={{width:}}>去结算</Button>
-          <Button size="lg" disabled>
+          <Button size="lg" style={{width: getRpx(240)}}>
+            去结算
+          </Button>
+          <Button size="lg" disabled style={{width: getRpx(240)}}>
             去结算
           </Button>
         </Card>
         <Card title="常规-小尺寸" style={{flexDirection: 'row'}}>
-          <Button size="md">去结算</Button>
-          <Button size="md" disabled>
+          <Button size="md" style={{width: getRpx(375)}}>
             去结算
           </Button>
         </Card>
