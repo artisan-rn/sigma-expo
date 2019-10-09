@@ -1,12 +1,5 @@
 import React, {Component} from 'react';
-import {
-  FlatList,
-  Platform,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import {FlatList, Platform, StyleSheet, Text, TouchableOpacity, View,} from 'react-native';
 import {routers} from './routers';
 
 import Device from '@jdjoy/sigma-rn-util/lib/Device';
