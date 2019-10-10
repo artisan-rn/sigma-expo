@@ -1,5 +1,12 @@
 import React, {Component} from 'react';
-import {FlatList, Platform, StyleSheet, Text, TouchableOpacity, View,} from 'react-native';
+import {
+  FlatList,
+  Platform,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import {routers} from './routers';
 
 import Device from '@jdjoy/sigma-rn-util/lib/Device';
@@ -16,7 +23,6 @@ const COLORS = [
 ];
 
 export default class App extends Component {
-
   static navigationOptions = {
     title: 'JD App 8.0 视觉规范 组件库',
     headerBackTitle: '返回',
