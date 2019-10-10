@@ -8,7 +8,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@jdjoy/sigma-rn": "^0.0.1",
+    "@jdjoy/sigma-rn": "^0.0.2",
     "@jdjoy/sigma-rn-util": "^0.0.1",
     "expo": "^35.0.0",
     "react": "16.8.3",
